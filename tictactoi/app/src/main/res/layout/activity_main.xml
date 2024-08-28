@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#EEFF09"
+android:gravity="center"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp" />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="30dp" />
+
+
+
+    <GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="3">
+    <Button
+        android:padding="20dp"
+        android:id="@+id/btn1"
+        android:onClick="check"/>
+    <Button
+        android:padding="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btn2"
+        android:onClick="check"/>
+    <Button
+        android:padding="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btn3"
+        android:onClick="check"/>
+    <Button
+        android:padding="20dp"
+        android:id="@+id/btn4"
+        android:onClick="check"/>
+    <Button
+        android:padding="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btn5"
+        android:onClick="check"/>
+    <Button
+        android:padding="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btn6"
+        android:onClick="check"/>
+    <Button
+        android:padding="20dp"
+        android:id="@+id/btn7"
+        android:onClick="check"/>
+    <Button
+        android:padding="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btn8"
+        android:onClick="check"/>
+    <Button
+        android:padding="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btn9"
+        android:onClick="check"/>
+
+
+
+
+
+</GridLayout>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnNewGame"
+    android:padding="20dp"
+    android:layout_marginTop="70dp"
+    android:backgroundTint="#FF5722"
+    android:textColor="@color/teal_700"
+    android:hint="@string/hint_btn"/>
+
+
+
+
+</LinearLayout>
